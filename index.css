@@ -1,0 +1,309 @@
+/* RESET AND BOX SIZING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* NAVIGATION STYLING */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.logo img {
+    width: 110.14px;
+    height: 43.84px;
+}
+
+.nav-button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #E67136;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+
+.nav-button:hover {
+    background-color: #333;
+}
+
+/* HEADER STYLING */
+
+header {
+    position: relative;
+    margin-top: 20px;
+    padding: 80px 20px;
+    text-align: center;
+    justify-content: center;
+    background-image: url("./IMAGES/virender-singh-hE0nmTffKtM-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E67136;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+header h1 {
+    color: white;
+}
+
+.orange-text {
+    color: #E67136;
+}
+
+/* MEMBERSHIP SECTION STYLING */
+
+.membership {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F5F4F4;
+    padding: 60px 40px;
+    align-items: center;
+    gap: 60px;
+}
+
+.text-content {
+    flex: 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-content h1 {
+    font-size: 26px;
+    color: #E67136;
+    margin-bottom: 20px;
+}
+
+.text-content h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.text-content button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E67136;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.img1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img1 img {
+    width: 400px;
+    height: 500px;
+}
+
+/* SECOND SECTION */
+.frikly {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F5F4F4;
+    padding: 60px 40px;
+    align-items: center;
+    gap: 60px;
+}
+
+.img2 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.img2 img {
+    width: 400px;
+    height: 500px;
+}
+
+.text-content2 {
+    flex: 1;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-content2 h1 {
+    font-size: 26px;
+    color: #E67136;
+    margin-bottom: 20px;
+}
+
+.text-content2 p {
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.text-content2 button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E67136;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* SECTION/TAG */
+
+#sectionTag {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+
+#sectionTag div {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 280px;
+    border-radius: 12px;
+}
+
+#sectionTag h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+
+#sectionTag h3 {
+    font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+
+.btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #244439;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.white-section {
+    border: 2px solid white;
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+
+.top-part {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+}
+
+
+.logo1 img {
+    width: 75%;
+}
+
+
+.contact-info h2{
+    margin-bottom: 10px;
+    color: #E67136;
+    font-size: 20px;
+}
+
+.contact-info p{
+    margin-bottom: 10px;
+}
+
+
+.border-btm {
+    border-bottom: 1px dotted black;
+    margin-bottom: 20px;
+}
+
+
+.aligned {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 60px;
+    
+}
+
+.copyright {
+    text-align: center;
+}

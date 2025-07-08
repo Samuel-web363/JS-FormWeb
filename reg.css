@@ -1,0 +1,118 @@
+/* RESET AND BOX SIZING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* NAVIGATION STYLING */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.logo img {
+    width: 110.14px;
+    height: 43.84px;
+}
+
+.nav-button {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #E67136;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+}
+
+.nav-button:hover {
+    background-color: #333;
+}
+
+
+/* REGISTRATION FORM STYLING */
+
+#reg-form {
+    background-color: #0B2B40;
+    padding: 40px;
+    width: 1200px;
+    margin: 0px 30px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+
+.Reg {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+.input-com {
+    margin-bottom: 20px;
+}
+
+.input-com label {
+    display: block;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+
+.input-com input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #256D85;
+    background-color: #163D59;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.input-com h5 {
+    margin-top: 5px;
+    color: #FF6B6B;
+    font-size: 12px;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 12px;
+    background-color: #256D85;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #1A4C66;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reg.css">
+</head>
+<body>
+
+     <!-- NAVIGATION BAR -->
+    <nav>
+        <div class="logo">
+            <img src="./IMAGES/image 1.png" alt="">
+        </div>
+
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Careers</li>
+        </ul>
+
+        <a href="./reg.html" class="nav-button">Register</a>
+    </nav>
+
+    <!-- REGISTRATION FORM -->
+
+    <form id="reg-form">
+        <h1 class="Reg"> Registration Form</h1>
+
+        <div class="input-com">
+            <label>First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="Enter First Name">
+        </div>
+
+        <div class="input-com">
+            <label>Last Name</label>
+            <input type="text" id="lasttName" name="lastName" placeholder="Enter Last Name">
+        </div>
+
+        <div class="input-com">
+            <label> Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email">
+            <h5 id="email-error"></h5>
+
+        </div>
+
+        <div class="input-com">
+            <label> Phone Number </label>
+            <input type="number" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number">
+            <h5 id="phone-error"></h5>
+
+        </div>
+
+        <div class="input-com">
+
+            <label> Password</label>
+            <input type="text" id="Password" name="Password" placeholder="Enter your Password">
+             <h5 id="password-error"></h5>
+        </div>
+
+        <div class="input-com">
+
+            <label> Confirm Password</label>
+            <input type="text" id="con-Password" name="con-Password" placeholder="Confirm Password">
+             <h5 id="con-password-error"></h5>
+        </div>
+
+        <button type="submit" class="btn1">Submit</button>
+
+    </form>
+
+    
+    <script src="./reg.js"></script>
+</body>
+</html>
